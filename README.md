@@ -20,5 +20,24 @@ There are two basic flavors of loops: `for` and `while`
 
 ###### For loop example
 ```
-  
+  for (int i = 0; i < 5; i++;) {
+    System.out.println("hello");
+  }
 ```
+:eyes: &nbsp; Notice
+  - [x] We declare a variable `i` and assign it the value 0
+  - [x] We see a conditional statement `i < 5`
+  - [x] `i++`...?
+###### While loop example
+```
+  int i = 0;
+  while (i < 5) {
+    System.out.println("hello");
+    i++;
+  }
+```
+:eyes: &nbsp; Notice
+  - [x] We declare a variable `i` and assign it the value 0
+  - [x] We see a conditional statement `i < 5`
+  - [x] `i++`...?
+
