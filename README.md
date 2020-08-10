@@ -1,4 +1,4 @@
-# Lesson 10: Staying [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+# Lesson 10: Reduce, reuse, recycle
 In lesson 9 we introduced if/else statements which allowed some code to be executed and some to be 'ignored'\
 Now we'll learn how to not repeat ourselves...or always repeat ourselves?
 
@@ -20,7 +20,7 @@ There are two basic flavors of loops: `for` and `while`
 
 ###### For loop example
 ```
-  for (int i = 0; i < 5; i++;) {
+  for (int i = 0; i < 5; i++) {
     System.out.println("hello");
   }
 ```
@@ -40,4 +40,28 @@ There are two basic flavors of loops: `for` and `while`
   - [x] We declare a variable `i` and assign it the value 0
   - [x] We see a conditional statement `i < 5`
   - [x] `i++`...?
+ 
+ The structure of for and while loops is essentially the same.\
+ They differ in their organization.\
+ 
+ ### Let's abstract a bit
+ ###### For loops take this form 
+ ```
+  for (declare and initialize counter; set counter condition; set counter increment) {
+    do stuff;
+  }
+ ```
+ ###### While loops take this form
+ ```
+  declare & initialize counter;
+  while (set counter condition) {
+    do stuff;
+    set counter increment;
+  }
+ ```
+ We have the same pieces, just rearranged.\
+ 
+ ### Take&nbsp;:v:
+ Watch [this](https://youtube.com)
+ 
 
