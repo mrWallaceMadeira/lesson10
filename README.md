@@ -27,7 +27,7 @@ There are two basic flavors of loops: `for` and `while`
 :eyes: &nbsp; Notice
   - [x] We declare a variable `i` and assign it the value 0
   - [x] We see a conditional statement `i < 5`
-  - [x] `i++`...?
+
 ###### While loop example
 ```
   int i = 0;
@@ -39,7 +39,6 @@ There are two basic flavors of loops: `for` and `while`
 :eyes: &nbsp; Notice
   - [x] We declare a variable `i` and assign it the value 0
   - [x] We see a conditional statement `i < 5`
-  - [x] `i++`...?
  
  The structure of for and while loops is essentially the same.\
  They differ in their organization.\
@@ -59,9 +58,17 @@ There are two basic flavors of loops: `for` and `while`
     set counter increment;
   }
  ```
- We have the same pieces, just rearranged.\
+ We have the same pieces, just rearranged.
+ Our pieces are
+  1. declare and initialize counter à la `int i = 0;`
+  2. set counter condition à la `i < 5`
+  3. set counter increment à la `i++`
+      - This is the same as `i = i + 1;` or `i += 1;`
  
  ### Take&nbsp;:v:
  Watch [this](https://youtube.com)
+ 
+ ### :performing_arts:&nbsp; C'est fini
+ Entry ticket [here]()
  
 
