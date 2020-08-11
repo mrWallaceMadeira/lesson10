@@ -65,8 +65,8 @@ There are two basic flavors of loops: `for` and `while`
   3. set counter increment à la `i++`
       - This is the same as `i = i + 1;` or `i += 1;`
  
- ### Take&nbsp;:v:
- Watch [this](https://youtube.com)
+ ### :tv:&nbsp;Fernsehzeit!
+ Watch [this](https://themadeiraschool.sharepoint.com/sites/IntrotoCS/Shared%20Documents/General/Videos/lesson10Video1.mov)
  
  ### :performing_arts:&nbsp; C'est fini
  Entry ticket [here]()
