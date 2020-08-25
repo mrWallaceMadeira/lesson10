@@ -1,5 +1,5 @@
 # Reduce, reuse, recycle
-In lesson 9 we introduced if/else statements which allowed some code to be executed and some to be 'ignored'\
+We introduced if/else statements which allowed some code to be executed and some to be 'ignored'\
 Now we'll learn how to not repeat ourselves...or always repeat ourselves?
 
 ###### First, an example
